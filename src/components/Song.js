@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 
 export const Song = (props) => {
   const dispatch = useDispatch();
+
   return (
     <div className="item" key={props.title}>
       <div className="right floated content">

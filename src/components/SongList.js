@@ -13,6 +13,7 @@ export const SongList = () => {
           title={song.title}
           artist={song.artist}
           duration={song.duration}
+          source={song.source}
         />
       ))}
     </div>
