@@ -1,6 +1,14 @@
 import React from "react";
-// import { selectSong } from "../actions";
+import { SongList } from "./SongList";
 
 export const App = () => {
-  return <div>Hello, Redux!</div>;
+  return (
+    <div className="ui container grid">
+      <div className="ui row">
+        <div className="column eight wide">
+          <SongList />
+        </div>
+      </div>
+    </div>
+  );
 };
